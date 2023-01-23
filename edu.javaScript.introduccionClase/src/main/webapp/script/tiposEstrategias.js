@@ -54,10 +54,10 @@ function ejemplo8(){
   		this.modelo  =  modelo  ;
   		this.anioFabricacion  =  anioFabricacion  ;
 	}
-	var vehiculo = new coche('Honda', 'Civic', 2010);
+	var Vehiculo = new coche('Honda', 'Civic', 2010);
 
-	document.write(vehiculo instanceof coche);
-	document.write(vehiculo instanceof Object);
-	document.write(vehiculo);
-	document.write(vehiculo.marca);
+	document.write(Vehiculo instanceof coche);
+	document.write(Vehiculo instanceof Object);
+	document.write(Vehiculo);
+	document.write(Vehiculo.marca);
 }
